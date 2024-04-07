@@ -1,4 +1,9 @@
 import Nav from "../islands/Nav.tsx";
 export default function Home() {
-  return <Nav></Nav>;
+  return (
+    <div className="MainPage">
+        <div className="MainTitle">Revived Homes</div>
+      <Nav></Nav>
+    </div>
+  );
 }

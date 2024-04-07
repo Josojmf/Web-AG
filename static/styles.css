@@ -1,9 +1,28 @@
-.nav {
+.NavPanel {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   background-color: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.MainTitle {
+  position: absolute;
+  left: 50%;
+  font-size: 24px;
+}
+.MainPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 18px;
+  padding: 20px;
 }
 
 .nav-links {

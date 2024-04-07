@@ -13,35 +13,30 @@ const Nav: FunctionComponent = () => {
 
   return (
     (
-      <div className={classNameToggle}>
-        <nav className={classNameToggle}>
-          <button onClick={() => toggleActiveClass()}>
-            Menu
-          </button>
-          <div className="logo">
-            <a href="#">YourLogo</a>
-          </div>
-          <ul className="nav-links">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-          <div className="burger">
-            <div className="line1"></div>
-            <div className="line2"></div>
-            <div className="line3"></div>
-          </div>
-        </nav>
-      </div>
+      <nav className="NavPanel">
+        <div className="logo">
+        <img src="/logo.png" alt="logo" width="100px" height="100px" />
+        </div>
+        <ul className="nav-links">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <div className="burger">
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+        </div>
+      </nav>
     )
   );
 };
